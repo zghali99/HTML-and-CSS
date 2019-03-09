@@ -1,0 +1,59 @@
+<html>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="/landing.html">
+			<button type="button" class="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/btn btn-primary btn-lg" style="font-family:Times New Roman; background-color: lightseagreen; border-color: lightseagreen">Lattitude</button>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent" align="right">
+			<div align="right">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+					<li class="nav-item">
+						<a class="nav-link" href="/comparison.html">Comparison</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/data.html">Data</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="visualization1.html">Max Temperature</a>
+							<a class="dropdown-item" href="visualization2.html">Humidity</a>
+							<a class="dropdown-item" href="visualization3.html">Cloudiness</a>
+							<a class="dropdown-item" href="visualization4.html">Wind Speed</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Weather Data</title>
+	
+	<body>
+		<div class= "col-md-7">
+			<div class= "main-box">
+				<h2 style="color: lightseagreen; font-family:Times New Roman"><b>Cloudiness</b></h2>
+				<img src="Resources/assets/images/Fig3.png" alt="Vs. Cloudiness" height="400" width="600">
+				<br></br>
+				<p style="font-family: Times New Roman" size="2">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Lattitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the norhtern 
+				hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+				
+				<div class= "side-box">
+					<h2 class= "main-pg-subheader" style="color: lightseagreen; font-family: Times New Roman"><b>Visualizations</b></h2>
+					<hr>
+						<div class= "sidebar">
+							<a href= "temperature.html"><img id= "side-img1" src= "Resources/assets/Images/fig1.png", alt= "Temp vs. Latitude", width="300" height="200"></a>
+							<a href= "humidity.html"><img id= "side-img2" src= "Resources/assets/Images/fig2.png", alt= "Humidity vs. Latitude", width="300" height="200"></a>
+							<a href= "cloudiness.html"><img id= "side-img3" src= "Resources/assets/Images/fig3.png", alt= "Cloudiness vs. Latitude", width="300" height="200"></a>
+							<a href= "wind.html"><img id= "side-img4" src= "Resources/assets/Images/fig4.png", alt= "Wind Speed vs. Latitude", width="300" height="200"></a>
+						</div>
+					</hr>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
